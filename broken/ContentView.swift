@@ -17,7 +17,7 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("first")
+                        Image(systemName: "1.circle")
                         Text("First")
                     }
                 }
@@ -26,11 +26,56 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("second")
+                        Image(systemName: "2.circle")
                         Text("Second")
                     }
                 }
                 .tag(1)
+            Text("Third View")
+            .font(.title)
+            .tabItem {
+                VStack {
+                    Image(systemName: "3.circle")
+                    Text("Third")
+                }
+            }
+            .tag(2)
+            Text("Fourth View")
+            .font(.title)
+            .tabItem {
+                VStack {
+                    Image(systemName: "4.circle")
+                    Text("Fourth")
+                }
+            }
+            .tag(3)
+            Text("Fifth View")
+            .font(.title)
+            .tabItem {
+                VStack {
+                    Image(systemName: "5.circle")
+                    Text("Fifth")
+                }
+            }
+            .tag(4)
+            Text("Sixth View")
+            .font(.title)
+            .tabItem {
+                VStack {
+                    Image(systemName: "6.circle")
+                    Text("Sixth")
+                }
+            }
+            .tag(5)
+            Text("Seventh View")
+            .font(.title)
+            .tabItem {
+                VStack {
+                    Image(systemName: "7.circle")
+                    Text("Seventh")
+                }
+            }
+            .tag(6)
         }
     }
 }
